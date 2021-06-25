@@ -142,6 +142,46 @@ public class Main {
         swap(num);
         System.out.println(Arrays.toString(num));**/
 
+        //q7
+
+        /**double[] myNamesArray=new double[10];
+        for (int i=0;i<10;i++) {
+            Scanner mark = new Scanner(System.in);
+            System.out.print("Enter your Mark:");
+            double marks = mark.nextDouble();
+            myNamesArray[i]=marks;
+        }
+        double[] myNamesArrayList=myNamesArray.clone();
+        Arrays.sort(myNamesArrayList);
+        System.out.println("myNamesArray = "+Arrays.toString(myNamesArray));
+        System.out.println("myNamesArrayList = "+Arrays.toString((myNamesArrayList)));**/
+
+        //q8
+
+        /**
+         // Arrays are passed by reference //
+         short [] array={1,2,3,4,5,6};
+         System.out.println(array); // reference will be displayed as the output //
+         System.out.println(Arrays.toString(array));
+         **/
+
+        //q9
+
+        int[]numbers={1,2,3,4,5,6,7,8,9,10};
+        for (int i=0;i<numbers.length;i++){
+            for (int j=0;i>=j;j++){
+                if (j!=i){
+                    if (numbers[i]+numbers[j]==6){
+                        System.out.println("{"+numbers[i]+","+numbers[j]+"}");
+                    }
+                }
+            }
+        }
+
+
+
+
+
 
 
 
