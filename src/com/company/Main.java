@@ -4,6 +4,25 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
+    //q6 method
+    /**static void swap(double[] num) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter your i:");
+        int i = input.nextInt();
+
+        Scanner input2 = new Scanner(System.in);
+        System.out.print("Enter your j:");
+        int j = input2.nextInt();
+        double x = num[i-1];
+        double y = num[j-1];
+
+        num[i-1] = y;
+        num[j-1] = x;
+
+
+
+    }**/
+
 
     public static void main(String[] args) {
         //q1
@@ -107,6 +126,22 @@ public class Main {
         num[j-1]=x;
 
         System.out.println(Arrays.toString(num));**/
+
+        //q6
+        /**double[] num=new double[5];
+
+        for (int i=0;i<5;i++) {
+            Scanner mark = new Scanner(System.in);
+            System.out.print("Enter your Mark:");
+            double marks = mark.nextDouble();
+
+            num[i]=marks;
+
+        }
+        System.out.println(Arrays.toString(num));
+        swap(num);
+        System.out.println(Arrays.toString(num));**/
+
 
 
 
