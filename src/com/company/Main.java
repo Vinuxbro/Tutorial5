@@ -52,11 +52,30 @@ public class Main {
         }
 
         System.out.println("Final marks = "+Arrays.toString(marks));
-        System.out.println(fail+" students are failed");
 
-        System.out.println(fail+" students are failed");**/
+        System.out.println(fail+" students are failed");
+        System.out.println(fail+" students are failed");
+**/
 
         //q3
+        /**double[] num= new double[100];
+        for (int i=0;i<100;i++){
+            Scanner input = new Scanner(System.in);
+            System.out.println("eneter a number: ");
+            double number = input.nextDouble();
+
+            num[i]=number;
+
+        }
+        Arrays.sort(num);
+        System.out.println(Arrays.toString(num));
+        double num1=num[99];
+        System.out.println(num1);**/
+
+        //q4
+
+
+
 
 
     }
