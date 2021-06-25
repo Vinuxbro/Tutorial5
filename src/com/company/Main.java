@@ -77,9 +77,43 @@ public class Main {
         int[] new_array=new int[array.length];
         for(int n=0;n<array.length-1;n++){
             new_array[n+1]=array[n];
-            new_array[0]=array[array.length-1];
+          ? new_array[0]=array[array.length-1];
+       /}/
+        Sy/tem.out.println(Arrays.toString(new_array));**/
+
+        //q5
+        /**double[] num= new double[20];
+        for (int n=0;n<20;n++){
+            Scanner input = new Scanner(System.in);
+            System.out.println("Enter a number: ");
+            double numbers=input.nextDouble();
+
+            num[n]= numbers;
+
         }
-        System.out.println(Arrays.toString(new_array));**/
+        System.out.println(Arrays.toString(num));
+        Scanner input1= new Scanner(System.in);
+        System.out.println("enter your i: ");
+        int i = input1.nextInt();
+
+        Scanner input2= new Scanner(System.in);
+        System.out.println("enter your j: ");
+        int j=input2.nextInt();
+
+        double x=  num[i-1];
+        double y=  num[j-1];
+
+        num[i-1]=y;
+        num[j-1]=x;
+
+        System.out.println(Arrays.toString(num));**/
+
+
+
+
+
+
+
 
 
 
