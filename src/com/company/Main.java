@@ -73,7 +73,13 @@ public class Main {
         System.out.println(num1);**/
 
         //q4
-
+        /**int[] array={1,2,3,4,5};
+        int[] new_array=new int[array.length];
+        for(int n=0;n<array.length-1;n++){
+            new_array[n+1]=array[n];
+            new_array[0]=array[array.length-1];
+        }
+        System.out.println(Arrays.toString(new_array));**/
 
 
 
