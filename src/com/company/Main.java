@@ -26,13 +26,10 @@ public class Main {
 
 
         //q2
-<<<<<<< HEAD
         /**int[]marks= new int[10];
         int tot;
-=======
         double[]marks= new double[10];
         double tot;
->>>>>>> cf42652 (q3)
         int fail = 0;
         for (int n=0;n<10;n++){
             Scanner input= new Scanner(System.in);
@@ -42,11 +39,8 @@ public class Main {
 
         }
         for (int i=0;i<10;i++){
-<<<<<<< HEAD
             int latemarks= marks[i];
-=======
             double latemarks= marks[i];
->>>>>>> cf42652 (q3)
             tot = latemarks-((latemarks*10)/100);
             marks[i]=tot;
             if (tot<40){
@@ -58,11 +52,9 @@ public class Main {
         }
 
         System.out.println("Final marks = "+Arrays.toString(marks));
-<<<<<<< HEAD
-        System.out.println(fail+" students are failed");**/
-=======
         System.out.println(fail+" students are failed");
->>>>>>> cf42652 (q3)
+
+        System.out.println(fail+" students are failed");**/
 
         //q3
 
